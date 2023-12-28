@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter/static/Inter-SemiBold.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'InterExtraBold';
+    src: url('../assets/fonts/Inter/static/Inter-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: url('../assets/fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+}
+
+h2 {
+  color: #000;
+  font-family: InterBold;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h3 {
+  color: #000;
+  font-family: InterBold;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+li, p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
